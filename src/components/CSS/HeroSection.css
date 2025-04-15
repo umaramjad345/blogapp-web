@@ -1,0 +1,21 @@
+.container-with-dots {
+  height: 100%;
+  width: 100%;
+}
+.custom-dot-list-style {
+  position: absolute;
+  bottom: -30px;
+}
+@media (max-width: 576px) {
+  .custom-dot-list-style {
+    bottom: -10px;
+  }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+  .custom-dot-list-style {
+    bottom: -10px; /* Adjusted position for screens from 577px to 992px */
+  }
+}
+.carousel-custom-item {
+  transition: all 1000ms ease 500ms;
+}
